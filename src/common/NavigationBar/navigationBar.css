@@ -1,0 +1,38 @@
+.nav665DirectLinksDiv {
+  min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav665QuickLinksDiv {
+  min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav665DirectLinksDiv a {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav665QuickLinksDiv a {
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* .nav665QuickLinksDiv a:hover img {
+  filter: brightness(0) invert(1);
+} */
+
+.nav665MainDiv {
+  padding: 25px 0;
+}
+
+

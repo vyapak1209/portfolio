@@ -1,0 +1,92 @@
+.home888MainDiv {
+  margin-top: 200px;
+}
+
+.home888HeadingText {
+  font-size: 6rem;
+  font-weight: 700;
+  max-width: 450px;
+}
+
+.home888Hrule {
+  height: 18px;
+  background-color: var(--secondary);
+  opacity: 0.1;
+  border-radius: 8px;
+  position: absolute;
+  top: 60px;
+  left: 195px;
+  animation: right-expand 0.5s ease-in-out;
+}
+
+.home888HruleShow {
+  display: block !important;
+  width: 250px;
+}
+
+@keyframes right-expand {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 250px;
+    display: block;
+  }
+}
+
+.home888Heading {
+  position: relative;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.home888SubHeading {
+  position: relative;
+  max-width: 400px;
+  animation-delay: 0.2s;
+}
+
+.home888Para {
+  animation-delay: 0.4s;
+}
+
+.home888SubHeading h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.home888BuildTool {
+  position: absolute;
+  width: 100px;
+  z-index: 0;
+  top: 9px;
+  right: -60px;
+  opacity: 0.1;
+}
+
+.home888Button {
+  margin-top: 40px;
+  max-width: 150px;
+  animation-delay: 0.6s;
+}
+
+.home888CoverImageDiv {
+  border-radius: 50%;
+  height: 330px;
+  width: 330px;
+  border: solid 25px #c6ffd31b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.home888CoverDrawing {
+  position: absolute;
+  z-index: -1;
+  top: -150px;
+  opacity: 0.05;
+  right: -150px;
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,12 @@
+.logo887MainText {
+  font-size: 3rem;
+  color: var(--secondary);
+  margin-left: 10px;
+}
+
+.logo887MainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}

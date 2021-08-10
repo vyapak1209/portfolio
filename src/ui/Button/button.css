@@ -1,0 +1,33 @@
+.btn555MainDiv {
+  height: fit-content;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: solid 2px var(--secondary);
+  background: var(--primary);
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn555BackgroundDiv {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  background: var(--secondary);
+  z-index: 0;
+  cursor: pointer;
+}
+
+.btn555MainDiv:hover {
+  top: -3px;
+  right: -3px;
+}
+
+.btn555MainDiv:active {
+  top: 0px;
+  right: 0px;
+}

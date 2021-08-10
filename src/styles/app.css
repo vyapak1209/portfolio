@@ -1,0 +1,59 @@
+@import './theme.css';
+@import './skeleton.css';
+@import './normalize.css';
+@import './animations.css';
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: rgb(66,70,93);
+  background: linear-gradient(130deg, rgba(66,70,93,1) 0%, var(--primary) 30%);
+  color: var(--text) !important;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif !important;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+pre,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
